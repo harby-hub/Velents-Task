@@ -53,9 +53,13 @@ Authentication Endpoints
 
 User Endpoints
 >GET /api/users: Retrieve a list of all users.
+
 >GET /api/users/{id}: Retrieve a specific user by ID.
+
 >POST /api/users: Create a new user.
+
 >PUT /api/users/{id}: Update an existing user.
+
 >DELETE /api/users/{id}: Delete a user.
 
 Please note that the create, update, and delete methods are protected, and the user must be logged in to access them. The show endpoint is public and can be accessed by guest users.
